@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Database
+*.sqlite3
+# If you use a different database file name, adjust accordingly, e.g., db.sqlite3
+
+# Media and Static files (if not served from a separate CDN or build process)
+media/
+static/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+local_settings.py
+
+# Logs
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
